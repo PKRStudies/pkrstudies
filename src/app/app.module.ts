@@ -7,12 +7,16 @@ import { PkrStudiesComponent } from './pkrstudies/pkrstudies.component';
 
 import { FormsModule } from '@angular/forms';
 import { PkrComponent } from './pkr/pkr.component';
+import { SuccessAlertsComponent } from './success-alerts/success-alerts.component';
+import { WarningAlertsComponent } from './warning-alerts/warning-alerts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PkrStudiesComponent,
-    PkrComponent
+    PkrComponent,
+    SuccessAlertsComponent,
+    WarningAlertsComponent
   ],
   imports: [
     BrowserModule,

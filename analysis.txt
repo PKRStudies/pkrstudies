@@ -1,0 +1,4 @@
+npm install - creation of node modules
+Set-ExecutionPolicy Unrestricted - for powershell issue - run vs code as admin and execute the command.
+
+Now reading databinding
