@@ -9,4 +9,10 @@ import { Component, OnInit } from '@angular/core';
        color: red }`], 
 })
 export class WarningAlertsComponent {
+  allowButton : boolean = true;
+  constructor() {
+    setTimeout(() => {
+      this.allowButton = false;
+    }, 2000)
+  }
 }
